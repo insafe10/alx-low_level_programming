@@ -21,6 +21,7 @@ if (lastn > 5)
 printf("Last difit of %d is %d and is greater than 5\n", n, lastn);
 }
 else if (lastn == 0)
+{
 printf("Last difit of %d is %d and is 0\n", n, lastn);
 }
 else if (lastn < 6 && lastn != 0)
