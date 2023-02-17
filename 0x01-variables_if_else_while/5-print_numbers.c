@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - prints all single digit numbers of base
  * 10 starting from 0, followed by a new line
@@ -14,5 +13,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
-		
