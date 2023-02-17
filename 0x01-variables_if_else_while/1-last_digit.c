@@ -10,7 +10,7 @@
 
 int main(void)
 {
-int n;
+int n == 98;
 int lastn;
 
 srand(time(0));
