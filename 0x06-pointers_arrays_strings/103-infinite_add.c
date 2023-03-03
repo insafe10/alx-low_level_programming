@@ -2,7 +2,7 @@
 
 /**
  * rev_string - reverse array
- * @n: intger params
+ * @n: integer params
  * Return: 0
  */
 
@@ -18,7 +18,7 @@ void rev_string(char *n)
 	}
 	i--;
 
-	for (j = 0; j < i; i--)
+	for (j = 0; j < i; j++, i--)
 	{
 		temp = *(n + j);
 		*(n + j) = *(n + i);
