@@ -13,6 +13,6 @@ void free_list(list_t *head)
 		temp = head->next;
 		free(head->str);
 		free(head);
-		heat = temp;
+		head = temp;
 	}
 }
